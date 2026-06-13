@@ -1,12 +1,20 @@
 {
   "rewrites": [
     {
-      "source": "/portfolio/:path*",
-      "destination": "https://omar-portfolio-three-phi.vercel.app/:path*"
+      "source": "/portfolio/(.*)",
+      "destination": "https://omar-portfolio-three-phi.vercel.app/$1"
     },
     {
-      "source": "/helix-docs/:path*",
-      "destination": "https://helix-docs-leers-projects-016b836c.vercel.app/helix-docs/:path*"
+      "source": "/portfolio",
+      "destination": "https://omar-portfolio-three-phi.vercel.app/"
+    },
+    {
+      "source": "/helix-docs/(.*)",
+      "destination": "https://helix-docs-leers-projects-016b836c.vercel.app/helix-docs/$1"
+    },
+    {
+      "source": "/helix-docs",
+      "destination": "https://helix-docs-leers-projects-016b836c.vercel.app/helix-docs/"
     }
   ]
 }
