@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/portfolio/:path*",
+      "destination": "https://omar-portfolio.vercel.app/:path*"
+    },
+    {
+      "source": "/helix-docs/:path*",
+      "destination": "https://docs-app-lime.vercel.app/helix-docs/:path*"
+    }
+  ]
+}
