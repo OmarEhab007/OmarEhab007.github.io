@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/portfolio/:path*",
-      "destination": "https://omarehab007.github.io/portfolio/:path*"
+      "destination": "https://omar-portfolio-three-phi.vercel.app/:path*"
     },
     {
       "source": "/helix-docs/:path*",
-      "destination": "https://docs-app-lime.vercel.app/:path*"
+      "destination": "https://helix-docs-leers-projects-016b836c.vercel.app/helix-docs/:path*"
     }
   ]
 }
